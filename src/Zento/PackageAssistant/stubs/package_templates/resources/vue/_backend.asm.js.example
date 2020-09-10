@@ -1,0 +1,14 @@
+import VueSamplePage from "./pages/backend/VueSamplePage";
+
+export default {
+    components: {
+    },
+    routes: [{
+        name: "{change-name-here}",
+        path: "/{change-admin-url-here}",
+        component: VueSamplePage,
+        meta: {
+            title: '{change-title-here}'
+        }
+    }]
+}

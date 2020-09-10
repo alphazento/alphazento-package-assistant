@@ -1,0 +1,22 @@
+{
+    "name": "alphazento/alphazento-package-assistant",
+    "description": "alphazento framework package develement assistant",
+    "keywords": ["laravel", "alphazento", "package", "assistant", "generator"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Yongcheng Chen",
+        "email": "yongcheng.chen@live.com"
+    }],
+    "require": {
+        "php": ">=7.2",
+        "alphazento/zento": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zento\\PackageAssistant\\": "src/"
+        },
+        "exclude-from-classmap": ["src/**/resources", "src/**/stubs"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

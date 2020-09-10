@@ -1,0 +1,5 @@
+export default {
+    components: {
+        // "sample-component": "{change-component-vue-file-path-here}"
+    }
+}

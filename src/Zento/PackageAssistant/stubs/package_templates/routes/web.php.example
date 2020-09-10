@@ -1,0 +1,4 @@
+<?php
+//API entry
+// Route::group(['middleware' => ['web']], function () {
+// });
